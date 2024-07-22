@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e120ea61ff.js" crossorigin="anonymous"></script>
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/llll.png" class="logo">
+                <ul id="sidemenu">
+                       <li><a href="Portfolio.html">HOME</a></li>
+                       <li><a href="#about">ABOUT</a></li>
+                       <li><a href="#experiences">EXPERIENCES</a></li>
+                       <li><a href="#myhobbies">HOBBIES</a></li>
+                    <li><a href="#contact">CONTACT </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p style="margin-left: 60px;"> HIGH SCHOOL GRADUATE</p> 
+                <h1>Hi, I'm <span style="color: coral;">Kusum</span><br> Neupane from Nepal</h1>
+                <h2>This is my portfolio, a glimpse into my journey, showcasing<br>my academic accomplishments, extracurricular engagements,<br> and aspirations for the future along with few personal experiences.</h2>
+            </div>
+            <div class="picture">
+                <img src="Images/ppppp.jpg" class="ppp">
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------about-->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/idpic.jpg" class="pic">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About Me</h1>
+                <p1 style="color: #262626; font-family: cursive; font-size: 28;">Who is Kusum Neupane?</p1>
+<p style="color: #262626; font-family: serif; font-size: 20px;">A girl who is passionate about being passionate.<br>
+A daughter who dreams to be proud of making her parents proud.<br>
+A human who tries everyday to be more human.<br>
+A friend who says let's grow together.<br>
+A student who acknowledges the opportunity to get education.<br></p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Education', event)">Education</p>
+                    <p class="tab-links" onclick="opentab('Awards', event)">Awards</p> 
+                    <p class="tab-links" onclick="opentab('Skills', event)">Skills</p>                   
+            </div>
+            
+            <div class="tab-contents active-tab" id="Education">
+                <ul>
+                    <li><span>Damauli Higher Secondary School</span> <br>Grade: 3 to 6<br> Class Rank: Top2</li>
+                    <li><span> Shree Satyawati Secondary School</span><br>Grade:7 to 10<br> Grade-9 GPA: 3.95<br>Grade-10 GPA:4.0<br>Class Rank: First</li>                   
+                    <li><span>St.Xaviers College, Maitighar</span><br>Grade: 11 and 12<br>GPA: 3.8(Unweighted)<br> Class Rank: Top 10%</li>    
+            </ul>
+            </div>
+            <div class="tab-contents" id="Awards">
+                <ul>
+                    <li><span>Sanskrit Knowledge Exam</span><br> Participants:Grade 6 to 12(600 approx.)<br>2nd Position in 2017(Prize Money: 5000 NPR)<br>1st Position in 2018(Prize Money: 10000 NPR)<br> 2nd Position in 2019(Prize Money: 10000 NPR) </li>
+                    <li><span> Merit Based Scholarship</span><br>In Grade 8, Grade 9 and Grade 10<br> For academic achievements</li>
+                    <li><span>Inter School Speech Competition</span><br>1st position (Lower Secondary Level)<br>Year: 2015</li> 
+                    <li><span>Inter School Drawing Competition</span><br>1st Position(LOwer Sexondary Level)<br>Year: 2014</li>   
+            </ul>
+            </div>
+            <div class="tab-contents" id="Skills">
+                <ul>
+                    <li><span>Microsoft Office Suite<span</li>
+                        <li><span>HTML/CSS/Js: Can create websites</span></li>
+                        <li><span>C programming(Intermediate Level)</span></li>   
+                        <li><span>Strategic planning and Problem-solving</span></li> 
+                        <li><span>Cooking: Can cook varieties of dishes </span></li> 
+                        <li><span>Communication Skill
+                        </span></li> 
+            </ul>
+            
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------------------------experiences-->
+<div id="experiences">
+    <div class="container">
+        <h1 class="Sub-title">MY EXPERIENCES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-user-group"></i>
+                <h2>Universal Solitary Movement(USM)</h2>
+                <p>Active member of the club<br> Volunteered as a leader in a college quiz event, organized
+                 a rural library book drive, distributed essentials at an old age home, and contributed to 
+                 event brainstorming. Demonstrated leadership, community engagement, and creative 
+                 event planning.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-bicycle"></i>
+                <h2>SXC Cycle Rally(Ride Against Cancer)</h2>
+                <p> Actively Volunteered<br> Managed cycle logistics during the event, including coordinating
+                     refreshments, ensuring participant safety, guiding the route, assisting with traffic, and
+                      overseeing post-event cleanup. Demonstrated organizational skills, commitment to safety,
+                       and effective coordination in a dynamic environment.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-expand"></i>
+                <h2>SET(Social Service, Environment and Technology) Exhibition</h2>
+                <p>Actively Volunteered<br>Assisted in organizing exhibition booths, guided visitors, managed crowds, and facilitated 
+                    the setup by moving desks, chairs, and benches. Played a key role in ensuring a smooth 
+                    event flow and contributed to post-event cleanup, showcasing adaptability and teamwork.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <h2>SXC Math's Mela 2021</h2>
+                <p>Participated<br> Engaged in an interactive math game focused on blending fun with 
+                formulae, emphasizing a creative approach to learning. Attended an enlightening session 
+                highlighting the real-life significance of mathematics, broadening perspectives on its 
+                practical applications.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-person-running"></i>
+                <h2>SXC Mini Marathon(Run For a Healthy Planet)</h2>
+                <p>Participated<br> Successfully completed a marathon, showcasing unwavering dedication, 
+                    perseverance, and strong physical endurance.Demonstrated a commitment to 
+                    personal goals and a resilient spirit.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Website Development</h2>
+                <p>Created few websites using Html/Css/Js
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div> 
+
+<div id="myhobbies">
+    <div class="container">
+        <h1 class="Sub-title">My Hobbies</h1>
+        <div class="hobbies-list">
+        <div>
+            <i class="fa-solid fa-photo-film"></i>
+                <h2>Photography</h2>
+                <p>Photography is not just a hobby for me; it's a way of freezing time and preserving precious
+                     moments. Through the lens of my camera, I explore the beauty of the world around me,
+                      finding inspiration in everyday scenes and extraordinary landscapes. Whether it's
+                       the play of sunlight on city streets or the subtle hues of a sunset, I strive to
+                        capture the essence of each moment.
+                    </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Writing Diary</h2>
+                <p>Diary writing is my soulful pursuit, a source of comfort and happiness. Within its pages,
+                     I weave a story of my life—capturing laughter and introspection alike. Each entry is a 
+                     canvas, painted with the vivid hues of joy and the nuanced shades of contemplation.
+                      It's not just a hobby; it's a therapeutic journey where pen meets paper, etching the 
+                      essence of my existence in delicate strokes.
+                    </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-person-hiking"></i>
+                <h2>Hiking</h2>
+                <p>Hiking is my favorite getaway. Walking through the trees and greenery is not just exercise; 
+                    it's a refreshing break from the hustle of daily life. Each step brings a sense of calm,
+                     and the natural surroundings rejuvenate my spirit. It's my simple yet powerful way to
+                      recharge and find peace amidst the chaos.
+                    </p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------------------------------------------CONTACT--------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-titlee">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>nkusum676@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977 9846542196
+                </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/kusum.n.11/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div>
+                <a href="KUSUM NEUPANE RESUME.pdf" target="_blank"><button class="btn btn2"> Download Resume</button></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn">Sumbit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+    <div class="container">
+        <h4>
+        Copyright © kusum. All rights reserved. | Designed and developed by Kusum.</p>
+        </h4>
+    </div>
+</div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-220px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbw3ZMVb-Ww_lZ4rdqjZwNRLdTYQcchhxIjzCjmsokJtmYoXKqto3p6z4ONk9Ds10Piu/exec>'
+    const form = document.forms['submit-to-google-sheet']
+     const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
