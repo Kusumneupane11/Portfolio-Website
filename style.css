@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+#header{
+    width: 100%;
+    height: 100vh;  
+    background-color:lightgoldenrodyellow;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+.picture{
+    margin-top:-66vh;
+    margin-left: 56%;
+    position: relative;
+}
+.ppp{
+    height: 520px;
+    width: 520px;
+    border-radius:500px;
+    border: 2px solid;
+}
+
+.container{
+    padding: 20px 5%;
+    height: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top:-5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 4px 5px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration:none;
+    position: relative;
+}
+li{
+    padding-left: 45px;
+    margin-right: 70%;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 1s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+.header-text{
+    margin-top: 17%;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.header-text h1{
+font-size:41px;
+margin-top: 38px;
+margin-left: 65px;
+font-weight: 300;
+}
+.header-text h2{
+    font-size:14px;
+    color:black; 
+    margin-left:65px;
+    margin-top: 4px;
+    font-family: Georgia;
+}
+
+/*--------------------------------------------about-------------->*/
+#about{
+    padding: 80px 0;
+    color:whitesmoke; 
+    font-size:30px;
+    background-color: lightgoldenrodyellow;
+}
+.pic{
+    height:600px;
+    width:200px;
+    margin-top: -10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 35px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub{
+    font-family: cursive;
+    font-size: 40px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+    flex-wrap: wrap;
+}
+.tab-links{
+    color: #262626;
+    margin-right:50px;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.2s;
+}
+.tab-links.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.tab-contents ul li span{
+    color: coral;
+    font-size: 17px;
+    font-weight: bold;
+}
+.tab-contents ul li{
+    color: black;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+
+/*...............................Experiences................*/
+
+#experiences{
+    padding: 30px 0;
+}
+.container{
+    background-color: peachpuff;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 80px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: white;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.5s, transform  0.5s;
+}
+.services-list i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    color: black;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.services-list div p{
+    color: #262626;
+    font-weight: 600;
+}
+.Sub-title{
+    font-family: cursive;
+    font-size: 40px;
+}
+.services-list div:hover {
+    background: coral;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+/*hobbies......................................................*/
+#myhobbies{
+    margin-top: 80px;
+}
+
+.hobbies-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.hobbies-list div{
+    background-color: white;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.5s, transform  0.5s;
+}
+.hobbies-list div:hover {
+    background: coral;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.himg{
+    width: auto;
+    height: 200px;
+}
+.hobbies-list div h2{
+    color: black;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.hobbies-list div p{
+    color: #262626;
+    font-weight: 600;
+}
+.hobbies-list i{
+    font-size: 50px;
+    margin-bottom: 30px;}
+
+
+
+/*-----------------------------------------CONTACT--------------------------------------*/
+#contact{
+    padding: 80px 0;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}  
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: coral;
+    margin-right: 15px;
+    font-size:25px;
+    font-weight:bolder;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    color: coral;
+  }
+  .social-icons a :hover{
+    color: coral;
+  }
+
+
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: #262626;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn{
+    border-radius: 10px;
+    margin-top: 8px;
+    background-color: coral;
+    height: 48px;
+    width: 125px;
+    cursor: pointer;
+    
+}
+.btn.btn2{
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: coral;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.Sub-titlee{
+    font-family: cursive;
+    font-size: 40px;
+    
+}
+#copyright{
+    margin-top: 80px;
+}
+.container h4{
+    margin-left: 300px;
+}
+
+
+
+nav .fa-solid{
+    display: none;
+}
+
+/*CSS for small screen*/
+
+
+
+/* ... Existing styles ... */
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    
+    .picture {
+        margin-left: 0%;
+        margin-top: -580px;
+    }
+
+.pic{
+    height: 450px;
+    width: 200px;
+}
+    .ppp {
+        height: 300px;
+        width: 300px;
+        border-radius: 300px;
+    }
+    .logo{
+        height: 65px;
+        width: 150px;
+    }
+
+    .header-text {
+        margin-top: 110%;
+        font-size: 30px;
+    }
+    .container nav ul li{
+        font-size: 5px;
+    }
+    nav .fa-solid{
+        display: block;
+    }
+    
+    nav ul {
+        background-color: coral;
+        position: fixed;
+        top: 0;
+        right: -230;
+        width: 220px;
+        height: 100vh;
+        padding-top: 50 px;
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+        margin-right: 10px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .header-text h1 {
+        font-size: 31px;
+        margin-top: 18px;
+        margin-left: 25px;
+    }
+
+    .header-text h2 {
+        font-size: 12px;
+        margin-left: 25px;
+        margin-top: 4px;
+    }
+
+    .about-col-1 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .tab-links {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+#msg{
+    color: coral;
+    margin-top: 10px;
+display: block;
+}
+    
